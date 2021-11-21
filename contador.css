@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+div#espcont {
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid white;
+    padding: 100px;
+    display: inline;
+    opacity: 0;
+}
+
+div#eliti {
+    margin: 450px 0px 10px 50px;
+}
+
+div.quad {
+    background-color: white;
+    width: 55px;
+    padding-bottom: 55px;
+}
