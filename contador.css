@@ -14,7 +14,9 @@ div#espcont {
 }
 
 div#eliti {
-    margin: 450px 0px 10px 50px;
+    position: absolute;
+    margin: 450px 300px 10px 200px;
+    
 }
 
 div.quad {
