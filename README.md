@@ -1,2 +1,2 @@
 # Contador
- 
+Apenas um contador
