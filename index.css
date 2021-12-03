@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    display: block;
+}
