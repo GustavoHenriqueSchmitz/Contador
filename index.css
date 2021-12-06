@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*Preparando a base do site*/
 * {
     margin: 0%;
     box-sizing: border-box;
@@ -38,4 +39,58 @@ img {
     width: 30%;
     height: 75%;
     background-color: white;
+}
+
+/*Flechas*/
+#flechaesquerda {
+    position: absolute;
+    margin: 0 0 7% 6%;
+    width: 19%;
+    height: 36%;
+}
+
+#flechadireita {
+    position: absolute;
+    margin: 0 0 7% 74.8%;
+    width: 19%;
+    height: 36%;
+}
+
+/*Botões*/
+.basebotoes {
+    position: absolute;
+    background-color: grey;
+    border-radius: 100%;
+    width: 6%;
+    height: 20%;
+}
+
+#zerarcontador {
+    position: relative;
+    margin: 5% 0 0 2%;
+    background-color: grey;
+    border-radius: 100%;
+    width: 22%;
+    height: 69%;
+}
+
+#botaodescontabilizador {
+    top: 19%;
+    right: 17%;
+}
+
+#botaocontabilizador {
+    top: 55%;
+    right: 17%;
+
+}
+
+#botaoduplicar {
+    top: 19%;
+    right: 6%;
+}
+
+#botaometade {
+    top: 55%;
+    right: 6%;
 }
