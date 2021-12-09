@@ -41,17 +41,29 @@ img {
     background-color: white;
 }
 
+#areacontabilizador {
+    position: absolute;
+    right: 24%;
+    top: 62%;
+    background-color: white;
+    border-radius: 80%;
+    width: 13%;
+    height: 33%;
+}
+
 /*Flechas*/
 #flechaesquerda {
-    position: absolute;
-    margin: 0 0 7% 6%;
+    position: relative;
+    top: 23%;
+    right: 17%;
     width: 19%;
     height: 36%;
 }
 
 #flechadireita {
-    position: absolute;
-    margin: 0 0 7% 74.8%;
+    position: relative;
+    bottom: 10%;
+    left: 48%;
     width: 19%;
     height: 36%;
 }
@@ -74,9 +86,29 @@ img {
     height: 69%;
 }
 
+#zerarcontadorbotaover {
+    position: absolute;
+    background-color: red;
+    border-radius: 100%;
+    width: 85%;
+    height: 85%;
+    right: 7%;
+    top: 7%;
+}
+
 #botaodescontabilizador {
     top: 19%;
     right: 17%;
+}
+
+#botaodescontabilizadorver {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color: red;
+    border-radius: 100%;
+    width: 80%;
+    height: 80%;
 }
 
 #botaocontabilizador {
@@ -85,12 +117,42 @@ img {
 
 }
 
+#botaocontabilizadorver {
+    position: absolute;
+    background: red;
+    top: 10%;
+    right: 10%;
+    border-radius: 100%;
+    width: 80%;
+    height: 80%;
+}
+
 #botaoduplicar {
     top: 19%;
     right: 6%;
 }
 
+#botaoduplicarver {
+    position: absolute;
+    background: red;
+    top: 10%;
+    right: 10%;
+    border-radius: 100%;
+    width: 80%;
+    height: 80%;
+}
+
 #botaometade {
     top: 55%;
     right: 6%;
+}
+
+#botaometadever {
+    position: absolute;
+    background: red;
+    top: 10%;
+    right: 10%;
+    border-radius: 100%;
+    width: 80%;
+    height: 80%;
 }
