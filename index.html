@@ -9,15 +9,17 @@
 </head>
 <body>
     <div id="containeracima">
-        <div id="areadecontagem"></div>
+        <div id="areadecontagem">
+            <p id="contagem">0</p>
+        </div>
         <div id="areacontabilizador"></div>
-        <img src="img/flechaesquerda.png" alt="Flecha apontando para a esquerda" id="flechaesquerda">
-        <img src="img/flechadireita.png" alt="Flecha apontando para a direita" id="flechadireita">
+        <img src="img/flechaesquerda.png" onclick="subtrair()" alt="Flecha apontando para a esquerda" id="flechaesquerda">
+        <img src="img/flechadireita.png" onclick="somar()" alt="Flecha apontando para a direita" id="flechadireita">
     </div>
     <div id="containerbaixo">
         <img src="img/siglaeliti.png" alt="">
         <div id="zerarcontador" class="basebotoes">
-            <div id="zerarcontadorbotaover"></div>
+            <div id="zerarcontadorbotaover" onclick="zerar()"></div>
         </div>
         <div id="botaodescontabilizador" class="basebotoes">
             <div id="botaodescontabilizadorver"></div>
@@ -26,11 +28,12 @@
             <div id="botaocontabilizadorver"></div>
         </div>
         <div id="botaoduplicar" class="basebotoes">
-            <div id="botaoduplicarver"></div>
+            <div id="botaoduplicarver" onclick="multiplica()"></div>
         </div>
-        <div id="botaometade" class="basebotoes">
+        <div id="botaometade" onclick="metade()" class="basebotoes">
             <div id="botaometadever"></div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
