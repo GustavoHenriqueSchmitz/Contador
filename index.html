@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +8,14 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="containeracima">
+    <div id="pdecima">
+        <img src="img/flechaesquerda.png" alt="" class="flecha">
         <div id="areadecontagem">
-            <p id="contagem">0</p>
+            <p>0</p>
         </div>
-        <div id="areacontabilizador"></div>
-        <img src="img/flechaesquerda.png" onclick="subtrair()" alt="Flecha apontando para a esquerda" id="flechaesquerda">
-        <img src="img/flechadireita.png" onclick="somar()" alt="Flecha apontando para a direita" id="flechadireita">
+        <img src="img/flechadireita.png" class="flecha">
     </div>
-    <div id="containerbaixo">
-        <img src="img/siglaeliti.png" alt="">
-        <div id="zerarcontador" class="basebotoes">
-            <div id="zerarcontadorbotaover" onclick="zerar()"></div>
-        </div>
-        <div id="botaodescontabilizador" class="basebotoes">
-            <div id="botaodescontabilizadorver"></div>
-        </div>
-        <div id="botaocontabilizador" class="basebotoes">
-            <div id="botaocontabilizadorver"></div>
-        </div>
-        <div id="botaoduplicar" class="basebotoes">
-            <div id="botaoduplicarver" onclick="multiplica()"></div>
-        </div>
-        <div id="botaometade" onclick="metade()" class="basebotoes">
-            <div id="botaometadever"></div>
-        </div>
-    </div>
+    <div id="pdebaixo"></div>
     <script src="index.js"></script>
 </body>
 </html>
