@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*Base do site*/
 * {
     margin: 0;
 }
@@ -9,17 +10,12 @@ body {
     min-height: 100vh;  
     background-color: black;
 }
-
+/*Container de cima*/
 #pdecima {
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-columns: 1fr 36vw 1fr;
-    min-height: 50vh;
-}
-
-#pdebaixo {
-    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     min-height: 50vh;
 }
 
@@ -35,4 +31,43 @@ body {
 .flecha {
     height: 25vh;
     width: 20vw;
+}
+
+#contagem {
+    font-size: 8vh;
+}
+
+/*Container de baixo*/
+#pdebaixo {
+    display: flex;
+    place-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50vh;
+}
+
+#basebotaozerar {
+    display: flex;
+    background-color: #888888;
+    border-radius: 100%;
+    width: 16vw;
+    height: 28vh;
+}
+
+.botoesbase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 9vw;
+    height: 15vh;
+    background-color: #888888;
+}
+
+.botoes {
+    background-color: crimson;
+    border-radius: 100%;
+    width: 80%;
+    height: 80%;
 }

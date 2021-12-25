@@ -9,13 +9,37 @@
 </head>
 <body>
     <div id="pdecima">
-        <img src="img/flechaesquerda.png" alt="" class="flecha">
+        <img src="img/flechaesquerda.png" alt="" class="flecha" onclick="subtrair()">
         <div id="areadecontagem">
-            <p>0</p>
+            <p id="contagem"></p>
         </div>
-        <img src="img/flechadireita.png" class="flecha">
+        <img src="img/flechadireita.png" class="flecha" onclick="somar()">
     </div>
-    <div id="pdebaixo"></div>
+    <div id="pdebaixo">
+        <div class="botoesbase">
+            <div class="botoes">
+
+            </div>
+        </div>
+        <div class="botoesbase">
+            <div class="botoes">
+
+            </div>
+        </div>
+        <div id="basebotaozerar" class="botoesbase" onclick="zerar()">
+            <div class="botoes"></div>
+        </div>
+        <div class="botoesbase">
+            <div class="botoes">
+
+            </div>
+        </div>
+        <div class="botoesbase">
+            <div class="botoes">
+
+            </div>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
