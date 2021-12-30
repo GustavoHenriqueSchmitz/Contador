@@ -9,33 +9,38 @@
 </head>
 <body>
     <div id="pdecima">
-        <img src="img/flechaesquerda.png" alt="" class="flecha" onclick="subtrair()">
+        <img src="img/flechaesquerda.png" alt="" class="flecha" onclick="subtrair('contador')">
         <div id="areadecontagem">
             <p id="contagem"></p>
         </div>
-        <img src="img/flechadireita.png" class="flecha" onclick="somar()">
+        <div id="contabilizador">
+            <p id="contabilizagem"></p>
+        </div>
+        <img src="img/flechadireita.png" class="flecha" onclick="somar('contador')">
     </div>
     <div id="pdebaixo">
         <div class="botoesbase">
-            <div class="botoes">
+            <div class="botoes" onclick="metade('contador')">
 
             </div>
         </div>
         <div class="botoesbase">
-            <div class="botoes">
+            <div class="botoes" onclick="multiplicar('contador')">
 
             </div>
         </div>
-        <div id="basebotaozerar" class="botoesbase" onclick="zerar()">
-            <div class="botoes"></div>
-        </div>
-        <div class="botoesbase">
-            <div class="botoes">
+        <div id="basebotaozerar" class="botoesbase">
+            <div class="botoes" onclick="zerar()">
 
             </div>
         </div>
         <div class="botoesbase">
-            <div class="botoes">
+            <div class="botoes" onclick="subtrair('contabilizador')">
+
+            </div>
+        </div>
+        <div class="botoesbase">
+            <div class="botoes" onclick="somar('contabilizador')">
 
             </div>
         </div>

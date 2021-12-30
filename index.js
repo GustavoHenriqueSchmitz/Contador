@@ -1,33 +1,75 @@
-let num = 0
+let contador = 0
+let contabilizador = 0
 
-function somar() {
-    num = num + 1
-    render()
+function somar(variavel) {
+    
+    if (variavel == 'contador') {
+        contador = contador + contabilizador
+        render()
+    }
+    
+    if (variavel == 'contabilizador') {
+        contabilizador = contabilizador + 1
+        render()
+    }
+
 }
 
-function subtrair() {
-    num = num - 1
-    render()
+function subtrair(variavel) {
+
+    if (variavel == 'contador') {
+        contador = contador - contabilizador
+        render()
+    }
+    
+    if (variavel == 'contabilizador') {
+        contabilizador = contabilizador - 1
+        render()
+    }
+
 }
 
 function zerar() {
-    num = num - num
+
+    contador = 0
+    contabilizador = 0
     render()
+
 }
 
-function metade() {
-    num = num / 2
-    render()
+function metade(variavel) {
+    
+    if (variavel == 'contador') {
+        contador = contador / 2
+        render()
+    }
+    
+    if (variavel == 'contabilizador') {
+        contabilizador = contabilizador / 2
+        render()
+    }
+
 }
 
-function multiplica() {
-    num = num * 2
-    render()
+function multiplicar(variavel) {
+
+    if (variavel == 'contador') {
+        contador = contador * contador
+        render()
+    }
+    
+    if (variavel == 'contabilizador') {
+        contabilizador = contabilizador * contabilizador
+        render()
+    }
+
 }
 
 function render() {
     const cont = document.querySelector("#contagem")
-    cont.innerText = num
+    const contabi = document.querySelector("#contabilizagem")
+    cont.innerText = contador
+    contabi.innerText = contabilizador
 }
 
 render()
