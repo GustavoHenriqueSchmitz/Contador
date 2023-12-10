@@ -1,5 +1,5 @@
 let contador = 0
-let contabilizador = 0
+let contabilizador = 1
 
 function somar(variavel) {
     
